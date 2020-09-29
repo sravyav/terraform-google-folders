@@ -7,6 +7,22 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0](https://www.github.com/terraform-google-modules/terraform-google-folders/compare/v2.0.2...v3.0.0) (2020-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* This is a breaking change as the Terraform state location for folders has moved. See the upgrade guide for details.
+
+### Features
+
+* Use for_each instead of count to create folders ([#21](https://www.github.com/terraform-google-modules/terraform-google-folders/issues/21)) ([81da73f](https://www.github.com/terraform-google-modules/terraform-google-folders/commit/81da73fc1438612187631b471074fb015e8dbeeb))
+
+
+### Bug Fixes
+
+* relax version constraints to enable terraform 0.13.x compatibility ([#27](https://www.github.com/terraform-google-modules/terraform-google-folders/issues/27)) ([ac91308](https://www.github.com/terraform-google-modules/terraform-google-folders/commit/ac913087cb44d049c7d62466aa399af60bd9851b))
+
 ## [Unreleased]
 
 ## [2.0.2] - 2020-01-10
